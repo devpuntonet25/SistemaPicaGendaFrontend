@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font: 'Raleway', sans-serif;
+    --right-wave: '../images/right-wave.svg';
+    --background-hero: linear-gradient(68.18deg, rgba(8, 146, 98, 0.934785) 38.5%, rgba(12, 142, 150, 0.71) 99.29%);
+    --background-ingreso-panel: linear-gradient(111.82deg, rgba(8, 146, 98, 0.934785) 38.5%, rgba(12, 142, 150, 0.71) 99.29%);
+
+
+    /*Custom properties para los estilos de los títulos en la landingpage*/
+    --color-titulo-landingpage: #fff;
+    --line-height-titulo-landingpage: 47px;
+    --font-size-titulo-landingpage: 2.5rem;
+    --font-weight-titulo-landingpage: 700;
+
+    /*Custom properties para los estilos de los botones en la landingpage*/
+    --font-weight-boton-landingpage: 600;
+    --font-size-boton-landingpage: 2rem;
+    --line-height-boton-landingpage: 38px;
+    --color-boton-landingpage: #089262;
+    --padding-boton-landingpage: 10px 40px;
+    --background-boton-landingpage: #FFF;
+    --border-radius-boton-landingpage: 30px;
+}
+
+body{
+    font-family: var(--font);
+}
+
+
+.main__hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: var(--background-hero);
+    outline: none;
+    border: none;
+}
+
+.main_container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__texts{
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.main__title{
+    font-family: var(--font);
+    font-size: var(--font-size-titulo-landingpage);
+    font-weight: var(--font-weight-titulo-landingpage);
+    line-height: var(--line-height-titulo-landingpage);
+    color: var(--color-titulo-landingpage);
+}
+
+.main__button{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-boton-landingpage);
+    background-color: var(--background-boton-landingpage);
+    font-family: var(--font);
+    font-size: var(--font-size-boton-landingpage);
+    font-weight: var(--font-weight-boton-landingpage);
+    line-height: var(--line-height-boton-landingpage);
+    border-radius: var(--border-radius-boton-landingpage);
+    padding: var(--padding-boton-landingpage);
+    margin-top: 15px;
+}
+
+.main__imgcontainer{
+    /* flex-basis: 60%; */
+    /*Alinear esto*/
+    display: flex;
+    justify-content: center;
+}
+
+.main__img{
+    width: 90%;
+    z-index: 1;
+}
+
+.main__wave{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.main__hero--background{
+    background: var(--background-ingreso-panel);
+}
