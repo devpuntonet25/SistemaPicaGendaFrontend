@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/SistemaPicaGendaFrontend/static/css/main.9301cf42.css",
+    "main.js": "/SistemaPicaGendaFrontend/static/js/main.78eb02f3.js",
+    "static/js/787.8b9e6ef9.chunk.js": "/SistemaPicaGendaFrontend/static/js/787.8b9e6ef9.chunk.js",
+    "static/media/ingreso_panel_ilustracion.svg": "/SistemaPicaGendaFrontend/static/media/ingreso_panel_ilustracion.b27128a48940517ecf0187dd848272ac.svg",
+    "static/media/main_img.svg": "/SistemaPicaGendaFrontend/static/media/main_img.b2f4c92282129b48101db940e153555a.svg",
+    "static/media/right-wave.svg": "/SistemaPicaGendaFrontend/static/media/right-wave.ab0bd2e62673161f4a1001fdea1b4242.svg",
+    "index.html": "/SistemaPicaGendaFrontend/index.html",
+    "main.9301cf42.css.map": "/SistemaPicaGendaFrontend/static/css/main.9301cf42.css.map",
+    "main.78eb02f3.js.map": "/SistemaPicaGendaFrontend/static/js/main.78eb02f3.js.map",
+    "787.8b9e6ef9.chunk.js.map": "/SistemaPicaGendaFrontend/static/js/787.8b9e6ef9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9301cf42.css",
+    "static/js/main.78eb02f3.js"
+  ]
+}
